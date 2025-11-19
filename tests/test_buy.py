@@ -11,7 +11,7 @@ from pages.buy import but_tovar
 
 
 def test_vsetovari():
-    """Тест перехода на страницу 'Все товары'."""
+    """Тест перехода покупки товара."""
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))

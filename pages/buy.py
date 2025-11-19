@@ -8,6 +8,7 @@ import time
 
 
 class but_tovar (Base):
+    "Класс, содержащий локаторы и методы для покупки."
     # Locators
     ovormlenie = "//a[@class= 'button wc-forward']"
     itog = "//td[@class='product-total']//span[@class = 'woocommerce-Price-amount amount']"

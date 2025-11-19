@@ -6,6 +6,7 @@ from base.base_class import Base
 import time
 
 class Filtracia_tovara(Base):
+    "Класс, содержащий локаторы и методы для фильрации товара."
     # Locators
     eustomi = "//input[@id='wc-block-checkbox-list-option-2']"
     sort_dropdown = "//select[@name='orderby']"

@@ -6,7 +6,7 @@ from pages.tovar_page import TovarPage
 from pages.filtracia_tovara_page import Filtracia_tovara
 
 def test_vsetovari():
-    """Тест перехода на страницу 'Все товары'."""
+    """Тест перехода фильтрации товары."""
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))

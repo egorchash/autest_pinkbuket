@@ -6,6 +6,7 @@ from base.base_class import Base
 import time
 
 class DobavlenieTovaraPage(Base):
+    "Класс, содержащий локаторы и методы для добавления товара в корзину."
     # Locators
     item_prices = "//span[contains(@class, 'woocommerce-Price-amount')]"
     buy_button = ".//*[contains(@class, 'add_to_cart_button') or contains(@class, 'ajax_add_to_cart') or contains(@type, 'submit')]"

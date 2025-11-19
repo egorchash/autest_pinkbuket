@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from base.base_class import Base
 
 class TovarPage(Base):
+    "Класс, содержащий локаторы и методы для страницы все товары."
     # Locators
     vse_tovari = "//a[contains(text(), 'Все товары')]"
     buket_cvet_podar = "//h1[contains(text(), 'Букеты цветы подарки')]"
